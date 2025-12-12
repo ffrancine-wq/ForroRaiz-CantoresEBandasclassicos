@@ -1,26 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Forró – Artistas Clássicos</title>
 </head>
 <body>
+
+    <h1>Artistas do Forró – Informações</h1>
+
     <form>
-        <label for="artista"> Escolha um artista: </label>
+
+        <label for="artista">Escolha um artista:</label><br>
         <select id="artista" name="artista">
             <option value="">-- Escolha --</option>
             <option value="luiz">Luiz Gonzaga</option>
             <option value="dominguinhos">Dominguinhos</option>
             <option value="mastruz">Mastruz com Leite</option>
             <option value="calcinha">Calcinha Preta</option>
-            </select><br><br>
-            
-            <button type="submit">Confirmar</button>
-            <div id="info dos artistas">
-                <!--apos a seleção aqui aparecerá as carcteristicas de cada artistas (estão presentes no contexto)-->
+        </select>
 
-            </div>
+        <br><br>
+        <button type="submit">Confirmar</button>
+
+        <br><br>
+
+        <div id="info-luiz">
+            <h2>Luiz Gonzaga</h2>
+            <ul>
+                <li><strong>Estilo musical:</strong> Baião, xote, xaxado.</li>
+                <li><strong>Músicas de maior sucesso:</strong> Asa Branca, Baião, Xote das Meninas.</li>
+                <li><strong>Início da carreira:</strong> Década de 1940.</li>
+                <li><strong>Quantidade de músicas publicadas:</strong> Mais de 600 gravações.</li>
+                <li><strong>Importância para o forró:</strong> Rei do Baião e principal responsável por difundir o forró no Brasil.</li>
+            </ul>
+        </div>
+
+
+        <div id="info-dominguinhos">
+            <h2>Dominguinhos</h2>
+            <ul>
+                <li><strong>Estilo musical:</strong> Forró tradicional, xote, baião, com influências de MPB e jazz.</li>
+                <li><strong>Músicas de maior sucesso:</strong> Eu Só Quero um Xodó; Isso Aqui Tá Bom Demais.</li>
+                <li><strong>Início da carreira:</strong> Final dos anos 1950.</li>
+                <li><strong>Quantidade de músicas publicadas:</strong> Cerca de 40 álbuns e centenas de composições.</li>
+                <li><strong>Importância para o forró:</strong> Sucessor de Luiz Gonzaga, modernizando o forró com técnica e sensibilidade.</li>
+            </ul>
+        </div>
+
+
+        <div id="info-mastruz">
+            <h2>Mastruz com Leite</h2>
+            <ul>
+                <li><strong>Estilo musical:</strong> Forró eletrônico.</li>
+                <li><strong>Músicas de maior sucesso:</strong> Meu Vaqueiro, Meu Peão; Saga de um Vaqueiro.</li>
+                <li><strong>Início da carreira:</strong> 1990.</li>
+                <li><strong>Quantidade de músicas publicadas:</strong> Mais de 30 álbuns gravados.</li>
+                <li><strong>Importância para o forró:</strong> Pioneira no forró eletrônico, fundamental para a popularização nos anos 90.</li>
+            </ul>
+        </div>
+
+>
+        <div id="info-calcinha">
+            <h2>Calcinha Preta</h2>
+            <ul>
+                <li><strong>Estilo musical:</strong> Forró eletrônico e forró romântico.</li>
+                <li><strong>Músicas de maior sucesso:</strong> Você Não Vale Nada; Louca por Ti; Baby Doll.</li>
+                <li><strong>Início da carreira:</strong 1995.</li>
+                <li><strong>Quantidade de músicas publicadas:</strong> Mais de 20 álbuns.</li>
+                <li><strong>Importância para o forró:</strong> Uma das maiores bandas de forró romântico, referência nacional.</li>
+            </ul>
+        </div>
+
     </form>
 </body>
 </html>
