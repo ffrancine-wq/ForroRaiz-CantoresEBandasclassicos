@@ -29,71 +29,72 @@
 
 
    <div class="secao-flex">
-    <h1>Artistas do Forró</h1>
+    <h1 class="titulo-form">Vamos escolher  o melhor artista para você!</h1>
 </div>
    
     <form>
         
         <div class="buscar">
-        <label for="artista">Escolha um artista:</label><br>
-        <select id="artista1" name="artista">
-            <option value="">-- Escolha --</option>
-            <option value="luiz">Luiz Gonzaga</option>
-            <option value="dominguinhos">Dominguinhos</option>
-            <option value="mastruz">Mastruz com Leite</option>
-            <option value="calcinha">Calcinha Preta</option>
+         <label for="gravações">Tipo de gravações</label><br>
+          <select id="gravações" name="gravações">
+             <option value="">-- Escolha --</option>
+             <option value="luiz">Discos de Vinil</option>
+             <option value="dominguinhos">CDs</option>
+             <option value="mastruz">Platarformas digitais</option>
+             <option value="calcinha">Calcinha Preta</option>
         </select>
         </div>
 
-        <br><br>
+     <br><br>
         
 
           <div class="buscar">
-        <label for="instrumento">Instrumento principal:</label><br>
-        <select id="instrumento" name="instrumento">
-            <option value="">-- Escolha --</option>
-            <option value="instrumento1">Sanfona</option>
-            <option value="instrumento2">Zabumba</option>
-            <option value="instrumento3">Triangulo</option>
-            <option value="instrumento4">Sanfona, zabumba, triangulo</option>
-        </select>
+            <label for="instrumento">Instrumento principal:</label><br>
+              <select id="instrumento" name="instrumento">
+                <option value="">-- Escolha --</option>
+                <option value="instrumento1">Sanfona</option>
+                <option value="instrumento2">Zabumba</option>
+                <option value="instrumento3">Triangulo</option>
+                <option value="instrumento4">Sanfona, zabumba, triangulo</option>
+         </select>
         </div>
        
-        <br><br>
+     <br><br>
         
+        <div class="buscar">
           <label for="estilo">Estilo de forró:</label><br>
-    <select id="estilo" name="estilo">
-        <option value="">-- Escolha --</option>
-        <option value="raiz">Forró raiz</option>
-        <option value="eletronico">Forró eletrônico</option>
-        <option value="romantico">Forró romântico</option>
-    </select>
+            <select id="estilo" name="estilo">
+              <option value="">-- Escolha --</option>
+              <option value="raiz">Forró raiz</option>
+              <option value="eletronico">Forró eletrônico</option>
+              <option value="romantico">Forró romântico</option>
+      </select>
+    </div>
 
     <br><br>
 
-    
-    <label for="decada">Década de maior destaque:</label><br>
-    <select id="decada" name="decada">
-        <option value="">-- Escolha --</option>
-        <option value="1940">1940 – 1950</option>
-        <option value="1960">1960 – 1970</option>
-        <option value="1990">1990 – 2000</option>
-        <option value="2000">2000 – 2010</option>
-    </select>
+    <div class="buscar">
+       <label for="decada">Década de maior destaque:</label><br>
+           <select id="decada" name="decada">
+             <option value="">-- Escolha --</option>
+             <option value="1940">1940 – 1950</option>
+             <option value="1960">1960 – 1970</option>
+             <option value="1990">1990 – 2000</option>
+            <option value="2000">2000 – 2010</option>
+     </select>
+    </div>
 
     <br><br>
 
-        <div id="tipo">
-        <label for="tipo">Dividir por:</label>
-        <input id="box" type="checkbox"> Bandas 
-        <input id="box" type="checkbox"> Artistas solo 
+        <div id="tipo" class="buscar">
+          <label for="tipo">Dividir por:</label>
+            <input name="tipo" type="checkbox" value="bandas"> Bandas   
+            <input name="tipo" type="checkbox" value="solo" > Artistas solo 
         </div>
 
         <br><br>
         <button type="submit">Cotinuar</button>
 
-        <br><br>
-        
      </div>
      
 </div>
