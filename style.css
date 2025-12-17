@@ -18,15 +18,18 @@
 
         }
               
-        .secao-flex{
+        .form{
             display: flex;
             gap: 30px;
             flex-direction: column;
-         }
-         .secao-flex h1{
-            text-align: center;
-            margin-bottom: 10px;
             margin-top: 10px;
+         
+        }
+           .form h1{
+            text-align: center;
+            margin-top: 10px;
+            margin: 10px;
+            font-family: 'Times New Roman', Times, serif;
          }
 
          .bloco-conteudo{
@@ -128,16 +131,18 @@
 
        .titulo-form{
          margin-bottom: 15px;
+
        }
 
          #introducao-forro h2 {
            color: #7a3d13;
            margin-top: 0;
+           font-family: 'Times New Roman', Times, serif;
            text-align: center;
         }
         #tituloA {
             color:#7a3d13;
-        
+           font-family: serif;
             margin-top: 0;
            text-align: center;
         }
@@ -151,38 +156,8 @@
             font-size: 22px;
             font-weight: bold;
             color: #b3261e;
+            font-family: 'Times New Roman', Times, serif;
             margin-bottom: 10px;
         }
 
-        /* media squerie */
-        @media (max-width: 768px) {
-            .container{
-                width: 90%;
-                margin: 20px auto;
-                padding: 20px;
-            }
-
-            .container form{
-                width: 100%;
-                min-width: 400px;
-                margin: 0 auto;
-            }
-           
-            h1 {
-                font-size: 22px;
-            }
-
-           select {
-            font-size: 14px;
-           }
-        }
-
-    @media (max-width: 1024px){
-        .container{
-            width: 100%;
-        }
-
-        .container form{
-            width: 100%;
-        }
-    }
+        
